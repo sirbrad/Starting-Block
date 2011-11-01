@@ -4,6 +4,7 @@
 /* 	1. Base
 	2. Typography
 	3. Blocks
+	4. Responsive Shenanigans
 
  **********************************************************************/
 
@@ -19,7 +20,8 @@ nav, section {
 }
 
 html {
-	background-color:#fff;
+	background-color:#F3F3F3;
+	font-family: Arial, Verdana, sans-serif;
 	font-size: 100%;
 	line-height:1.5;
 	overflow-y: scroll;
@@ -164,4 +166,41 @@ h6, {
 .media .body {
 	overflow:hidden;
 	margin-bottom:0;
+}
+
+/* Container Block */
+.contain {
+	background-color:#fff;
+	margin:0 auto;
+	padding:0 10px;
+	max-width:940px;
+}
+
+
+
+/* 4. Responsive Shenanigans
+ **********************************************************************/
+ 
+/*
+ * Notes:
+ * Had to do our media screens in this format due to starting with a width of 960.
+ * Biggest problem was keeping breathing space between the container and the viewport
+ * Think I have sorted it, although I haven't checked upon de mobile yet!
+ */
+
+/* Anything below the width of our container */
+@media screen and (max-width: 980px) {
+	.contain {
+		background:blue;
+		margin:0 10px;
+	}
+}
+
+/* Mobile [do i need tablet?] */
+@media screen and (max-device-width: 480px),
+screen and (max-width: 600px) {
+	.contain {
+		background:Red;
+		margin:0 10px;
+	}
 }
