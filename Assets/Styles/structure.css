@@ -3,6 +3,7 @@
 
 /* 	1. Base
 	2. Typography
+	3. Blocks
 
  **********************************************************************/
 
@@ -19,11 +20,11 @@ nav, section {
 
 html {
 	background-color:#fff;
-    font-size: 100%;
+	font-size: 100%;
 	line-height:1.5;
-    overflow-y: scroll;
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
+	overflow-y: scroll;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 }
 
 body {
@@ -129,4 +130,38 @@ h5,,
 h6, {
 	font-size:1em;
 	line-height:1.5;
+}
+
+
+/* 3. Blocks
+ **********************************************************************/
+
+/* ClearFix - Ref: nicolasgallagher.com/micro-clearfix-hack/ */
+
+.cf {
+	zoom:1;
+}
+.cf:before,
+.cf:after {
+	content:"";
+	display:table;
+}
+.cf:after {
+	clear:both;
+}
+
+/* Media Block - Ref: www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
+
+.media {
+	display:block;
+}
+
+.media .img {
+	float:left;
+	margin-right:10px;
+}
+
+.media .body {
+	overflow:hidden;
+	margin-bottom:0;
 }
