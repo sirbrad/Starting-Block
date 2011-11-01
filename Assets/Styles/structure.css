@@ -139,7 +139,6 @@ h6, {
  **********************************************************************/
 
 /* ClearFix - Ref: nicolasgallagher.com/micro-clearfix-hack/ */
-
 .cf {
 	zoom:1;
 }
@@ -148,10 +147,10 @@ h6, {
 	content:"";
 	display:table;
 }
+
 .cf:after {
 	clear:both;
 }
-
 /* Media Block - Ref: www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
 
 .media {
@@ -194,8 +193,6 @@ h6, {
 		margin:0 10px;
 	}
 }
- 
-
 
 /* Tablet */
 @media (min-width: 721px) and (max-width: 960px) { 
