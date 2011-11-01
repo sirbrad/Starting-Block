@@ -187,18 +187,26 @@ h6, {
  * Biggest problem was keeping breathing space between the container and the viewport
  * Think I have sorted it, although I haven't checked upon de mobile yet!
  */
-
-/* Anything below the width of our container */
-@media screen and (max-width: 980px) {
+ 
+/* This is to keep the breathing space, is it neccessary? hmm*/
+@media (max-width: 980px) { 
 	.contain {
-		background:blue;
+		margin:0 10px;
+	}
+}
+ 
+
+
+/* Tablet */
+@media (min-width: 721px) and (max-width: 960px) { 
+	.contain {
+		background:green;
 		margin:0 10px;
 	}
 }
 
-/* Mobile [do i need tablet?] */
-@media screen and (max-device-width: 480px),
-screen and (max-width: 600px) {
+/* Mobile */
+@media (max-width: 720px) {
 	.contain {
 		background:Red;
 		margin:0 10px;
