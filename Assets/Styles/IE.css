@@ -1,17 +1,39 @@
-/*
-	Author		: Storm Creative
-	Document		: IE
-	Created on	: 09-07-2011
-	Description	: Fixes bugs in Internet Explorer rendering (uses star hack to target IE7)
-*/
+/* IE.css
+ **********************************************************************/
 
-/* 1. Misc
-   2. Body
-   3. Form
-	
+/* 	1. Base
+	2. Sharing
 
  **********************************************************************/
- 
 
-/* 1. Misc
+/* 1. Base
  **********************************************************************/
+
+html {
+	-ms-text-size-adjust: 100%;
+}
+
+pre,
+code,
+kbd,
+samp {
+    _font-family: 'courier new', monospace;
+}
+
+img {
+    -ms-interpolation-mode: bicubic;
+}
+
+button,
+input,
+select,
+textarea {
+    *vertical-align: middle;
+}
+
+button,
+input[type="button"], 
+input[type="reset"], 
+input[type="submit"] {
+    *overflow: visible;
+}
