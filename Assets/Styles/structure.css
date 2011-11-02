@@ -30,6 +30,7 @@ html {
 }
 
 body {
+	font-size:0.75em; /* 12px / 16px = .75 */	
     margin: 0;
 }
 
@@ -46,7 +47,6 @@ code,
 kbd,
 samp {
     font-family: monospace, serif;
-    _font-family: 'courier new', monospace;
     font-size: 1em;
 }
 
@@ -68,7 +68,6 @@ nav ol {
 
 img {
     border: 0;
-    -ms-interpolation-mode: bicubic;
 }
 
 form {
@@ -82,7 +81,6 @@ textarea {
     font-size: 100%;
     margin: 0;
     vertical-align: baseline;
-    *vertical-align: middle;
 }
 
 button,
@@ -91,7 +89,6 @@ input[type="reset"],
 input[type="submit"] {
     cursor: pointer;
     -webkit-appearance: button;
-    *overflow: visible;
 }
 
 textarea {
@@ -102,6 +99,15 @@ textarea {
 table {
     border-collapse: collapse;
     border-spacing: 0;
+}
+
+a {
+	text-decoration:none;	
+}
+
+a:hover,
+a:focus {
+	text-decoration:underline;	
 }
 
 
