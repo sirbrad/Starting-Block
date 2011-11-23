@@ -1,0 +1,59 @@
+/* Handheld.css
+ **********************************************************************/
+
+/* 	1. Base
+	2. Sharing
+	3. Tablet
+	4. Mobile
+
+ **********************************************************************/
+
+/* 1. Base
+ **********************************************************************/
+
+/*
+ * Notes:
+ * Had to do our media screens in this format due to starting with a width of 960.
+ * Biggest problem was keeping breathing space between the container and the viewport
+ * Think I have sorted it, although I haven't checked upon de mobile yet!
+ */
+ 
+@media only screen and (max-width: 980px) { 
+	.contain {
+		margin:0 10px;
+	}
+}
+
+
+/* 2. Sharing
+ **********************************************************************/
+
+/* 3. Tablet
+ **********************************************************************/
+
+@media only screen and (max-width: 800px) { 
+	
+	/* 800px */
+	
+}
+
+@media (max-width: 700px) {
+	
+	/* 700px */
+	
+}
+
+@media only screen and (max-width: 600px) {
+	
+	/*600px*/
+}
+
+
+
+/* 4. Mobile
+ **********************************************************************/
+@media only screen and (max-width: 480px) {
+	
+	/*Mobile*/
+	
+}
