@@ -218,31 +218,6 @@ p {
  **********************************************************************/
  
 /*
- * Notes:
- * Had to do our media screens in this format due to starting with a width of 960.
- * Biggest problem was keeping breathing space between the container and the viewport
- * Think I have sorted it, although I haven't checked upon de mobile yet!
+ * Handheld.css
  */
  
-/* This is to keep the breathing space, is it neccessary? hmm*/
-@media (max-width: 980px) { 
-	.contain {
-		margin:0 10px;
-	}
-}
-
-/* Tablet */
-@media (min-width: 721px) and (max-width: 960px) { 
-	.contain {
-		background:green;
-		margin:0 10px;
-	}
-}
-
-/* Mobile */
-@media (max-width: 720px) {
-	.contain {
-		background:Red;
-		margin:0 10px;
-	}
-}
