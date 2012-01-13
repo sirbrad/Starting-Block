@@ -2,58 +2,123 @@
  **********************************************************************/
 
 /* 	1. Base
-	2. Sharing
-	3. Tablet
-	4. Mobile
+	2. 480+
+	3. 768+
+	4. 992+
 
  **********************************************************************/
 
 /* 1. Base
  **********************************************************************/
 
-/*
- * Notes:
- * Had to do our media screens in this format due to starting with a width of 960.
- * Biggest problem was keeping breathing space between the container and the viewport
- * Think I have sorted it, although I haven't checked upon de mobile yet!
- */
+/* 2. 480+
+ **********************************************************************/
+
+@media only screen and (min-width: 480px) {
+
+/* 	1. Typography
+	2. Layout
+
+ **************************/
+
+
+/* 1. Typography
+ **************************/
+
+
+
+/* 2. Layout
+ **************************/
+
+
+}
+
+
+/* 3. 600+
+ **********************************************************************/
+
+
+@media only screen and (min-width: 600px) { 
+
+/* 	1. Typography
+	2. Layout
+
+ **************************/
+
+
+
+/* 1. Typography
+ **************************/
  
-@media only screen and (max-width: 980px) { 
-	.contain {
-		margin:0 10px;
-	}
+
+
+/* 2. Layout
+ **************************/	
+ 
+
 }
 
-
-/* 2. Sharing
+/* 3. 768+
  **********************************************************************/
 
-/* 3. Tablet
+@media only screen and (min-width: 768px) {
+
+/* 	1. Typography
+	2. Layout
+
+ **************************/
+ 
+
+
+
+/* 1. Typography
+ **************************/
+
+
+/* 2. Layout
+ **************************/
+
+
+
+}
+
+
+
+
+/* 4. 992+
  **********************************************************************/
 
-@media only screen and (max-width: 800px) { 
-	
-	/* 800px */
-	
+@media only screen and (min-width: 992px) {
+
+header {
+	border-color:green;
 }
 
-@media (max-width: 700px) {
+/* 	1. Typography
+	2. Layout
+
+ **************************/
+
+
+/* 1. Typography
+ **************************/
+ 
+
+
+/* 2. Layout
+ **************************/
+
 	
-	/* 700px */
-	
+
 }
 
-@media only screen and (max-width: 600px) {
-	
-	/*600px*/
-}
-
-
-
-/* 4. Mobile
+/* 4. 2000+
  **********************************************************************/
-@media only screen and (max-width: 480px) {
-	
-	/*Mobile*/
-	
+
+@media only screen and (min-width: 2520px) {
+
+
+
+/* Wow check you out on your 27inch. 3*9Inch */
+
 }

@@ -5,7 +5,7 @@
 <!--[if gt IE 9]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
 <head>	
     <title><?= (basename($_SERVER['PHP_SELF']) === 'index.php') ? 'Welcome' : ucwords(str_replace(array('.php', '-'), array('', ' '), basename($_SERVER['PHP_SELF']))); ?> | Site Name</title>
-    <script src="Assets/Scripts/modernizr.min.js"></script>
+    <script src="Assets/Scripts/Utils/modernizr.min.js"></script>
     <meta charset="utf-8">
     <meta name="author" content="sirBrad" />
     <link type="text/plain" rel="author" href="humans.txt">
@@ -18,5 +18,6 @@
 <?php flush(); ?>
 <body>	
 	// Content
+    <script data-main="Assets/Scripts/main" src="Assets/Scripts/Require.min.js"></script>
 </body>
 </html>
