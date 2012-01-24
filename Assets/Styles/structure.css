@@ -37,7 +37,6 @@ body {
     margin: 0;
 }
 
-body,
 button,
 input,
 select,
@@ -206,18 +205,16 @@ p {
 
 /* Container Block */
 .contain {
-	background-color:#fff;
-	margin:0 auto;
+	margin-left:auto;
+	margin-right:auto;
 	padding:0 10px;
 	max-width:940px;
 }
 
+.body {
+	background-color:#fff;	
+}
 
 
-/* 4. Responsive Shenanigans
+/* 4. ??
  **********************************************************************/
- 
-/*
- * Handheld.css
- */
- 
