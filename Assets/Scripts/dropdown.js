@@ -9,6 +9,11 @@ define(['jquery', 'Utils/getEl', 'Utils/elementSibling'], function($, getId, es)
 	jQuery(container).delegate('p', 'click', function(e){
 		var targ = e.target;
 		
+		// Check if our span element is clicked
+		if (targ.parentNode.getAttribute('data-peekaboo')) {
+			targ = targ.parentNode;
+		}
+		
 		
 		if (targ.getAttribute('data-peekaboo')) {
 			
