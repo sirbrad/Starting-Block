@@ -24,7 +24,7 @@ nav, section {
 
 html {
 	background-color:#F3F3F3;
-	font-family: Arial, Verdana, sans-serif;
+	font-family: Helvetica, Arial, Verdana, sans-serif;
 	font-size: 100%;
 	line-height:1.5;
 	overflow-y: scroll;
@@ -63,7 +63,8 @@ dd {
 }
 
 nav ul,
-nav ol {
+nav ol,
+.listing {
     list-style: none;
     list-style-image: none;
 }
@@ -116,30 +117,41 @@ a:focus {
 /* 2. Typography
  **********************************************************************/
  
-h1 {
+h1,
+.alpha {
 	font-size:2em;
 	line-height:1.5;
 }
 
-h2 {
+h2,
+.beta {
 	font-size:1.5em;
-	line-height:1;
+	line-height:1.5;
 }
 
-h3 {
+h3,
+.gamma {
 	font-size:1.25em;
 	line-height:1.2;
 }
 
-h4 {
+h4,
+.delta {
 	font-size:1.125em;
 	line-height:1.333;
 }
 
 h5,
-h6 {
+h6,
+.epsilon {
 	font-size:1em;
 	line-height:1.5;
+}
+
+small,
+.milli {
+	font-size: .857142857em;
+	line-height: 1.75em;
 }
 
 h1, h2,
