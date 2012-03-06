@@ -7,12 +7,10 @@
     <title><?= (basename($_SERVER['PHP_SELF']) === 'index.php') ? 'Welcome' : ucwords(str_replace(array('.php', '-'), array('', ' '), basename($_SERVER['PHP_SELF']))); ?> | Site Name</title>
     <script src="Assets/Scripts/Utils/modernizr.min.js"></script>
     <meta charset="utf-8">
-    <meta name="author" content="Storm Creative" />
+    <meta name="author" content="sirBrad" />
     <link type="text/plain" rel="author" href="humans.txt">
     <link rel="stylesheet" href="Assets/Styles/fonts.css" />
-    <link rel="stylesheet" href="Assets/Styles/base.css" />
-    <link rel="stylesheet" href="Assets/Styles/blocks.css" />
-    <link rel="stylesheet" href="Assets/Styles/header.css" />
+    <link rel="stylesheet" href="Assets/Styles/structure.css" />
     <link rel="stylesheet" media="only screen and (min-width: 600px)" href="Assets/Styles/600.css" />
     <link rel="stylesheet" media="only screen and (min-width: 768px)" href="Assets/Styles/768.css" />
     <!--[if IE]>
@@ -22,7 +20,7 @@
 </head>
 <?php flush(); ?>
 <body>	
-	<?php include 'Assets/Includes/Header.html'; ?>
+	// Content
     <script data-main="Assets/Scripts/main" src="Assets/Scripts/Require.min.js"></script>
 </body>
 </html>
