@@ -1,4 +1,10 @@
-@import "variables";
-@import "base";
-@import "helpers";
-@import "header";
+// Set up your global variables
+@import "Core/setup";
+
+// Call in base styles
+@import "Core/base";
+@import "Core/helpers";
+
+// Components
+@import "Components/header";
+//etc

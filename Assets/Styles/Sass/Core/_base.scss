@@ -126,11 +126,10 @@ table {
 /* Typography
    ========================================================================== */
 
-.hx { // TODO: update to use silent-but-extendable selectors when they land
+.hx {
     margin: 1em 0;
     line-height: 1.1;
     font-weight: bold;
-    color: $important-text-color;
 }
 
 h6, .h6 {

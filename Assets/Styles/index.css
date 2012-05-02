@@ -1,38 +1,54 @@
+/* Site Set up
+ =========================================== */
 /* Base
    ========================================================================== */
-article, aside, dialog, figure, footer, header, hgroup, menu, nav, section {
-  display: block; }
+article, aside,
+dialog, figure,
+footer, header,
+hgroup, menu,
+nav, section {
+  display: block;
+}
 
 html {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 16px;
   line-height: 1.4;
-  color: #444444;
+  color: #333333;
   overflow-y: scroll;
   -webkit-text-size-adjust: 100%;
-  -ms-text-size-adjust: 100%; }
+  -ms-text-size-adjust: 100%;
+}
 
 body {
-  background-color: #999999;
-  margin: 0; }
+  background-color: #cccccc;
+  margin: 0;
+}
 
 /* Links
    ========================================================================== */
 a {
-  color: #105cb6;
-  text-decoration: none; }
+  color: red;
+  text-decoration: none;
+}
 
 /* Addresses outline displayed oddly in Chrome */
 a:focus {
-  outline: thin dotted; }
+  outline: thin dotted;
+}
 
 /* Improves readability when focused and also mouse hovered in all browsers */
-a:hover, a:active {
-  outline: 0; }
+a:hover,
+a:active {
+  outline: 0;
+}
 
-a:hover, a:focus, a:active {
-  color: #0a3870;
-  text-decoration: underline; }
+a:hover,
+a:focus,
+a:active {
+  color: #b30000;
+  text-decoration: underline;
+}
 
 /*
  * 1. Allows images to undergo proportional down-scaling within a container
@@ -43,46 +59,63 @@ img {
   max-width: 100%;
   height: auto;
   border: 0;
-  vertical-align: middle; }
+  vertical-align: middle;
+}
 
 /* Lists
    ========================================================================== */
-ul, ol {
-  padding-left: 30px; }
+ul,
+ol {
+  padding-left: 30px;
+}
 
-ul ul, ol ol, ul ol, ol ul {
-  margin: 0; }
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin: 0;
+}
 
 dt {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 dd {
-  margin-left: 30px; }
+  margin-left: 30px;
+}
 
 /* Tables
    ========================================================================== */
 table {
   border-collapse: collapse;
-  border-spacing: 0; }
+  border-spacing: 0;
+}
 
 .data-table {
-  margin: 1.4em 0; }
+  margin: 1.4em 0;
+}
 
 .data-table caption {
   padding: 0.5em 10px;
   text-align: left;
-  color: #777; }
+  color: #777;
+}
 
-.data-table th, .data-table td {
+.data-table th,
+.data-table td {
   padding: 0.5em 10px;
   border: 1px solid #ccc;
-  text-align: left; }
+  text-align: left;
+}
 
-.data-table tbody tr:nth-child(odd) th, .data-table tbody tr:nth-child(odd) td {
-  background: #f8f8f8; }
+.data-table tbody tr:nth-child(odd) th,
+.data-table tbody tr:nth-child(odd) td {
+  background: #f8f8f8;
+}
 
 .data-table--wide {
-  width: 100%; }
+  width: 100%;
+}
 
 /* Typography
    ========================================================================== */
@@ -90,93 +123,119 @@ table {
   margin: 1em 0;
   line-height: 1.1;
   font-weight: bold;
-  color: #222222; }
+}
 
 h6, .h6 {
   font-size: 0.875em;
-  color: #777; }
+  color: #777;
+}
 
 h5, .h5 {
-  font-size: 0.875em; }
+  font-size: 0.875em;
+}
 
 h4, .h4 {
-  font-size: 1em; }
+  font-size: 1em;
+}
 
 h3, .h3 {
-  font-size: 1.25em; }
+  font-size: 1.25em;
+}
 
 h2, .h2 {
   margin: 1em 0 0.75em;
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
 h1, .h1 {
   margin: 0 0 0.75em;
-  font-size: 2em; }
+  font-size: 2em;
+}
 
 .h1-l, .h1-xl {
   margin: 0 0 0.5em;
   font-size: 3.375em;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
 .h1-xl {
   margin: 0 0 0.5em;
   font-size: 4.5em;
-  font-weight: normal; }
+  font-weight: normal;
+}
 
-small, .txt-s {
-  font-size: 75%; }
+small,
+.txt-s {
+  font-size: 75%;
+}
 
 .txt-xl {
-  font-size: 1.5em; }
+  font-size: 1.5em;
+}
 
 /*
  * Block-level margins
  */
 p, blockquote, ul, ol, dl, menu, pre {
-  margin: 0 0 1.4em; }
+  margin: 0 0 1.4em;
+}
 
 /* Clearfix
    ========================================================================== */
 /* ClearFix - Ref: nicolasgallagher.com/micro-clearfix-hack/ */
 .cf {
-  zoom: 1; }
+  zoom: 1;
+}
 
-.cf:before, .cf:after {
+.cf:before,
+.cf:after {
   content: "";
-  display: table; }
+  display: table;
+}
 
 .cf:after {
-  clear: both; }
+  clear: both;
+}
 
 /* Media object
    ========================================================================== */
 /* Media Block - Ref: www.stubbornella.org/content/2010/06/25/the-media-object-saves-hundreds-of-lines-of-code/ */
 .media {
-  display: block; }
+  display: block;
+}
 
 .media .img {
   float: left;
-  margin-right: 10px; }
+  margin-right: 10px;
+}
 
 .media .body {
   overflow: hidden;
-  margin-bottom: 0; }
+  margin-bottom: 0;
+}
 
 /* Horizontal block
    ========================================================================== */
 /*Hoz Block (Horizontal) - Ref: http://csswizardry.com/2011/09/the-nav-abstraction/ */
 .hoz {
   list-style: none;
-  padding-left: 0; }
+  padding-left: 0;
+}
 
-.hoz, .hoz dd {
-  margin-left: 0; }
+.hoz,
+.hoz dd {
+  margin-left: 0;
+}
 
-.hoz li, .hoz dt, .hoz dd {
-  display: inline; }
+.hoz li,
+.hoz dt,
+.hoz dd {
+  display: inline;
+}
 
 .hoz a {
-  display: inline-block; }
+  display: inline-block;
+}
 
 /* Hidden
    ========================================================================== */
@@ -184,14 +243,193 @@ p, blockquote, ul, ol, dl, menu, pre {
 .hidden {
   text-indent: 100%;
   white-space: nowrap;
-  overflow: hidden; }
+  overflow: hidden;
+}
 
 /* Contain
    ========================================================================== */
 .contain {
-  max-width: 58.75em;
+  max-width: 940px;
   padding: 0 10px;
-  margin: 0 auto; }
+  margin: 0 auto;
+}
 
-/* Header
+/* Base
    ========================================================================== */
+article, aside,
+dialog, figure,
+footer, header,
+hgroup, menu,
+nav, section {
+  display: block;
+}
+
+html {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #333333;
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #cccccc;
+  margin: 0;
+}
+
+/* Links
+   ========================================================================== */
+a {
+  color: red;
+  text-decoration: none;
+}
+
+/* Addresses outline displayed oddly in Chrome */
+a:focus {
+  outline: thin dotted;
+}
+
+/* Improves readability when focused and also mouse hovered in all browsers */
+a:hover,
+a:active {
+  outline: 0;
+}
+
+a:hover,
+a:focus,
+a:active {
+  color: #b30000;
+  text-decoration: underline;
+}
+
+/*
+ * 1. Allows images to undergo proportional down-scaling within a container
+ * 2. Removes border when inside 'a' element in IE8/9, FF3
+ * 3. Removes excess space below inline images
+ */
+img {
+  max-width: 100%;
+  height: auto;
+  border: 0;
+  vertical-align: middle;
+}
+
+/* Lists
+   ========================================================================== */
+ul,
+ol {
+  padding-left: 30px;
+}
+
+ul ul,
+ol ol,
+ul ol,
+ol ul {
+  margin: 0;
+}
+
+dt {
+  font-weight: bold;
+}
+
+dd {
+  margin-left: 30px;
+}
+
+/* Tables
+   ========================================================================== */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.data-table {
+  margin: 1.4em 0;
+}
+
+.data-table caption {
+  padding: 0.5em 10px;
+  text-align: left;
+  color: #777;
+}
+
+.data-table th,
+.data-table td {
+  padding: 0.5em 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+}
+
+.data-table tbody tr:nth-child(odd) th,
+.data-table tbody tr:nth-child(odd) td {
+  background: #f8f8f8;
+}
+
+.data-table--wide {
+  width: 100%;
+}
+
+/* Typography
+   ========================================================================== */
+.hx, h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1, .h1-l, .h1-xl {
+  margin: 1em 0;
+  line-height: 1.1;
+  font-weight: bold;
+}
+
+h6, .h6 {
+  font-size: 0.875em;
+  color: #777;
+}
+
+h5, .h5 {
+  font-size: 0.875em;
+}
+
+h4, .h4 {
+  font-size: 1em;
+}
+
+h3, .h3 {
+  font-size: 1.25em;
+}
+
+h2, .h2 {
+  margin: 1em 0 0.75em;
+  font-size: 1.5em;
+}
+
+h1, .h1 {
+  margin: 0 0 0.75em;
+  font-size: 2em;
+}
+
+.h1-l, .h1-xl {
+  margin: 0 0 0.5em;
+  font-size: 3.375em;
+  font-weight: normal;
+}
+
+.h1-xl {
+  margin: 0 0 0.5em;
+  font-size: 4.5em;
+  font-weight: normal;
+}
+
+small,
+.txt-s {
+  font-size: 75%;
+}
+
+.txt-xl {
+  font-size: 1.5em;
+}
+
+/*
+ * Block-level margins
+ */
+p, blockquote, ul, ol, dl, menu, pre {
+  margin: 0 0 1.4em;
+}
