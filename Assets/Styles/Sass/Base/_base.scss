@@ -1,5 +1,4 @@
-/* Base
-   ========================================================================== */
+// Base
  
 article, aside,
 dialog, figure,
@@ -20,8 +19,15 @@ html {
 }
 
 body {
-	background-color:$background-color;
+	background:url(../Images/Css/bg-body.png) left top repeat-x $background-color;
     margin: 0;
+	padding-top:1em;
+}
+
+::selection,
+::-moz-selection {
+	background-color:$brand;
+	text-shadow: none;
 }
 
 /* Links

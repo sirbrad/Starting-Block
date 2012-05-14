@@ -261,10 +261,4 @@ p, blockquote, ul, ol, dl, menu, pre {
    ========================================================================== */
 /* Modules
    ========================================================================== */
-@media (min-width:480px) {
-  /* I don't like the idea of nested media queries due to the way sass outputs them.
-   * So my solution to have a Queries folder or have a duplicate file within
-   * the same directory but named with the min-width at the end of the file name.
-   * Example: Components/header - Components/header480
-  */
-}
+/* Call in the largest query for browsers that do not support media queries. */
