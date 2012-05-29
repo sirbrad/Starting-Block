@@ -101,32 +101,6 @@ table {
     border-spacing: 0;
 }
 
-.data-table {
-    margin: $base-line-height + em 0;
-}
-
-.data-table caption {
-    padding: 0.5em 10px;
-    text-align: left;
-    color: #777;
-}
-
-.data-table th,
-.data-table td {
-    padding: 0.5em 10px;
-    border: 1px solid #ccc;
-    text-align: left;
-}
-
-.data-table tbody tr:nth-child(odd) th,
-.data-table tbody tr:nth-child(odd) td {
-    background: #f8f8f8;
-}
-
-.data-table--wide {
-    width: 100%;
-}
-
 
 /* Typography
    ========================================================================== */
