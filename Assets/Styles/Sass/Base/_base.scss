@@ -19,9 +19,8 @@ html {
 }
 
 body {
-	background:url(../Images/Css/bg-body.png) left top repeat-x $background-color;
+	background:$background-color;
     margin: 0;
-	padding-top:1em;
 }
 
 ::selection,
